@@ -99,11 +99,10 @@
 		2C3C18F020A42C81006512F7 /* MyPractice */ = {
 			isa = PBXGroup;
 			children = (
+				2C3C192220A42CD6006512F7 /* Storyboard */,
+				2C3C192320A42D16006512F7 /* Controller */,
 				2C3C18F120A42C81006512F7 /* AppDelegate.swift */,
-				2C3C18F320A42C81006512F7 /* ViewController.swift */,
-				2C3C18F520A42C81006512F7 /* Main.storyboard */,
 				2C3C18FB20A42C83006512F7 /* Assets.xcassets */,
-				2C3C18FD20A42C83006512F7 /* LaunchScreen.storyboard */,
 				2C3C190020A42C83006512F7 /* Info.plist */,
 				2C3C18F820A42C81006512F7 /* MyPractice.xcdatamodeld */,
 			);
@@ -126,6 +125,23 @@
 				2C3C191620A42C83006512F7 /* Info.plist */,
 			);
 			path = MyPracticeUITests;
+			sourceTree = "<group>";
+		};
+		2C3C192220A42CD6006512F7 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2C3C18F520A42C81006512F7 /* Main.storyboard */,
+				2C3C18FD20A42C83006512F7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		2C3C192320A42D16006512F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C3C18F320A42C81006512F7 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
